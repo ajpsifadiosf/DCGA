@@ -3,6 +3,10 @@ We propose a novel Dual-Color Granularity Alignment (DCGA) framework that explor
 
 ![mainv4](https://github.com/ajpsifadiosf/DCGA/assets/138737267/2e3eda3e-45b7-48c2-8e39-384a9fe8a840)
 
+## Revised Foreground Based Alignment (FBA) and Fine-grained Token Selection (FTR) modules.
+
+Adding symbols in the formula to the Figure.
+![细节图(1)](https://github.com/ajpsifadiosf/DCGA/assets/138737267/c25c91f4-dcdc-4dd6-b24c-18164632a24c)
 
 Additional experimental visualization and results of experiments.
 
