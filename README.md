@@ -71,6 +71,7 @@ RR denotes the re-ranking post-processing operations.
 #### Additional experimental visualization
 We take the self-attention weights from the last layer of the RGB adn GRS Transformer Decoder in the FTR, and map these two attention weights back to the original RGB and GRS images, generating a visualization result similar to CAM. More detailed discussions about the visualization results will be addressed in the rebuttal.
 
-![zwc](https://github.com/ajpsifadiosf/DCGA/assets/138737267/9d2ba2af-4de9-43cb-9431-d4d31d7aca84)
+![热力图-zwc](https://github.com/ajpsifadiosf/DCGA/assets/138737267/5453c48b-4419-4bb2-9a71-f39ecd8ddef4)
+
 
 
