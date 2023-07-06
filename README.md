@@ -1,7 +1,14 @@
 # Dual-Color Granularity Alignment for Text-Based Person Search (DCGA)
+We propose a novel Dual-Color Granularity Alignment (DCGA) framework that explores discriminative and fine-grained features which are overlooked due to color information dominance. The model complements the granularity of information and effectively solves the problem of color dependence. We consider using grayscale features to address the issue of dataset scarcity in the TBPS task. We treat grayscale information as weakly supervised terms, which not only solves the problem of intra-class variance but also further improves the performance of TBPS.
+
+![mainv4](https://github.com/ajpsifadiosf/DCGA/assets/138737267/2e3eda3e-45b7-48c2-8e39-384a9fe8a840)
+
+
 Additional experimental visualization and results of experiments.
 
 ## DCGA on Text-to-Image Person Retrieval Results
+RR denotes the re-ranking post-processing operations.
+
 #### CUHK-PEDES dataset
 
 |       Method        |     Rank-1    |   Rank-5  |  Rank-10  |
@@ -62,5 +69,7 @@ Additional experimental visualization and results of experiments.
 
 
 #### Additional experimental visualization
+We take the self-attention weights from the last layer of the RGB adn GRS Transformer Decoder in the FTR, and map these two attention weights back to the original RGB and GRS images, generating a visualization result similar to CAM. More detailed discussions about the visualization results will be addressed in the rebuttal.
 
+![W@U7@ORQ$9{7`~1B8C~1AQW](https://github.com/ajpsifadiosf/DCGA/assets/138737267/912d69b5-ae3e-49db-9e17-d38141db76eb)
 
